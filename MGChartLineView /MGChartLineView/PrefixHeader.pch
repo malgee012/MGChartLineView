@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  MGChartLineView
+//
+//  Created by acmeway on 2017/5/24.
+//  Copyright © 2017年 acmeway. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define MGScreenWidth [UIScreen mainScreen].bounds.size.width
+#define MGScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define MGRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define MGRandomColor MTRGBColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+
+#endif /* PrefixHeader_pch */

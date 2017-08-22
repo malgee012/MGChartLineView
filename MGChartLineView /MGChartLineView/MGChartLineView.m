@@ -102,7 +102,6 @@
         
         if (value > 0) [pointArray addObject:[NSValue valueWithCGPoint:point]];
         
-        
         if (value > 0 && lastValue == 0)
         {
             [pointAxisPath moveToPoint:point];
